@@ -1,4 +1,5 @@
 # N-gram-Diacritizer-Arabic
-A diacritizer which uses n-grams to interpret vowelless Arabic text. The program predicts the vowels based on context.
+Arabic is generally written without vowels which can be an issue especially for children and non-natives. This model automates diacritization of vowelless Arabic text using N-grams
 
-The model is trained on the Tashkeela corpus https://sourceforge.net/projects/tashkeela/
+- Places vowels in each word based on N words of given context.
+- The model is trained on the Tashkeela corpus https://sourceforge.net/projects/tashkeela/
